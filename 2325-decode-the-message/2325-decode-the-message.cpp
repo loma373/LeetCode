@@ -1,7 +1,7 @@
 class Solution {
 public:
     string decodeMessage(string key, string message) {
-        map<char,char> mp;
+        unordered_map<char,char> mp;
         char letter='a';
         for(auto s:key){
             if(s!=' ' and mp.find(s)==mp.end()){
