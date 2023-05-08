@@ -1,7 +1,7 @@
 class Solution {
 public:
     int uniqueMorseRepresentations(vector<string>& words) {
-        map<char,string> morse{
+        unordered_map<char,string> morse{
             {'a',".-"},
             {'b',"-..."},
             {'c',"-.-."},
